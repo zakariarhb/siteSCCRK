@@ -1,0 +1,92 @@
+﻿/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 550px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+	height: auto;
+	padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+.sousTitres
+{
+	text-color: green;
+}
+
+/* sidenav style */
+.sidebar-nav {;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  background-color: ;
+  list-style: none;
+}
+.sidebar-nav li {
+  text-indent: 0px;
+  line-height: 20px;
+  text-align: left;
+
+  list-style-type : none;
+}
+.sidebar-nav li a {
+  color: ;
+  display: block;
+  text-decoration: none;
+}
+ul .list-group{
+		border : none;
+}
+.sidebar-nav li a:hover {
+  background: rgba(255,255,255,0.25);
+  color: ;
+  text-decoration: none;
+}
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  #sidebar-wrapper.sidebar-toggle {
+    transition: 0s;
+    left: 200px;
+  }
+}
+
+
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover
+{
+	background-color : #4CAF50;
+}
+
+@media screen and (min-width: 945px){
+	.container-fluid>.navbar-collapse{
+		margin-left : 400px;
+	}
+	.tailleNav
+	{
+		width : 100px;
+	}
+)
