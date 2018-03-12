@@ -1,1 +1,2 @@
 # siteSCCRK
+License MIT
